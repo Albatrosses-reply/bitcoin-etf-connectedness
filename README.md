@@ -1,11 +1,7 @@
 # Institutionalization Without Integration: Bitcoin After the Spot ETF — Replication Package
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
-> Replace `XXXXXXX` with the real Zenodo DOI once the archived release is created
-> (see Section 8, "Publishing and archiving"). The same DOI is cited in the paper's
-> *Data and Code Availability* section.
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20582111-blue.svg)](https://doi.org/10.5281/zenodo.20582111)
 
 This repository contains the data and code required to reproduce all empirical
 results, tables, and figures in:
@@ -181,7 +177,7 @@ repository:
 
 > [Authors] (2026). *Replication package for "Institutionalization Without
 > Integration: Bitcoin After the Spot ETF"* (vX.Y) [Data set]. Zenodo.
-> https://doi.org/10.5281/zenodo.XXXXXXX
+> https://doi.org/10.5281/zenodo.20582111
 
 A machine-readable citation is provided in `CITATION.cff`.
 
@@ -215,7 +211,7 @@ Then archive on Zenodo to obtain the citable DOI:
 2. Under **Settings → GitHub**, toggle ON the `bitcoin-etf-connectedness` repository.
 3. On GitHub, create a release (e.g., tag `v1.0`): *Releases → Draft a new release*.
 4. Zenodo automatically archives that release and issues a DOI of the form
-   `10.5281/zenodo.XXXXXXX`.
+   `10.5281/zenodo.20582111`.
 5. Replace the placeholder DOI in (i) this README's badge and citation, (ii)
    `CITATION.cff`, (iii) `.zenodo.json`, and (iv) the manuscript's *Data and Code
    Availability* section, then push the update.

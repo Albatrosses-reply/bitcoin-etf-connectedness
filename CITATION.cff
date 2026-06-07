@@ -10,8 +10,7 @@ authors:
 license: CC-BY-4.0
 version: "1.0"
 date-released: "2026-06-07"
-# Replace with the real Zenodo DOI after creating the archived release:
-doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.20582111"
 keywords:
   - Bitcoin
   - spot Bitcoin ETF
