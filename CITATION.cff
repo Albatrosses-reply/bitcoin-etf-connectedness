@@ -3,14 +3,12 @@ message: "If you use these data or code, please cite both the article and this a
 title: "Replication package for \"Institutionalization Without Integration: Bitcoin After the Spot ETF\""
 type: dataset
 authors:
-  - family-names: "Lee"
-    given-names: "Sang-Gun"
-    affiliation: "Business School, Sogang University, Seoul, South Korea"
-  # ADD CO-AUTHORS HERE — complete with every manuscript author before release.
+  - name: "Anonymous Author 1"
+  - name: "Anonymous Author 2"
 license: CC-BY-4.0
-version: "1.0"
-date-released: "2026-06-07"
-doi: "10.5281/zenodo.20582111"
+version: "1.1"
+date-released: "2026-06-08"
+doi: "10.5281/zenodo.20582110"
 keywords:
   - Bitcoin
   - spot Bitcoin ETF
@@ -22,10 +20,8 @@ preferred-citation:
   type: article
   title: "Institutionalization Without Integration: Bitcoin After the Spot ETF"
   authors:
-    - family-names: "Lee"
-      given-names: "Sang-Gun"
-      affiliation: "Business School, Sogang University, Seoul, South Korea"
-    # ADD CO-AUTHORS HERE.
+    - name: "Anonymous Author 1"
+    - name: "Anonymous Author 2"
   journal: "International Review of Economics and Finance"
   year: 2026
   notes: "Manuscript IREF-D-26-02471. Add the article DOI once assigned."

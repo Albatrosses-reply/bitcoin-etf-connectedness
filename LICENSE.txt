@@ -27,9 +27,9 @@ A human-readable summary is available at:
   https://creativecommons.org/licenses/by/4.0/
 
 Suggested attribution:
-  [Authors] (2026). Replication package for "Institutionalization Without
+  Anonymous Author 1 and Anonymous Author 2 (2026). Replication package for "Institutionalization Without
   Integration: Bitcoin After the Spot ETF" (vX.Y) [Data set]. Zenodo.
-  https://doi.org/10.5281/zenodo.20582111
+  https://doi.org/10.5281/zenodo.20582110
 
 THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 Some underlying raw market feeds are subject to their original providers' terms;
