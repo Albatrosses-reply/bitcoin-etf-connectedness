@@ -1,5 +1,0 @@
-"Method","Test_Statistic","P_Value","Conclusion"
-"Regime Transition","Receiver* → Receiver*",NA,"Supports H3"
-"Kendall's τ (Time Trend)","-0.1112","1.703e-08","Inconclusive"
-"Rolling Mean NET Trend","0.0232",NA,"Weak/No support"
-"Early vs Late t-test","-3.457","0.9997","Inconclusive"

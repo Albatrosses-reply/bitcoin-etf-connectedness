@@ -11,8 +11,8 @@ code/*.html
 code/*_cache/
 code/*_files/
 
-# Regenerated outputs accidentally written into code/ when knitting there.
-# The canonical reference outputs live in results/ and ARE tracked.
+# Generated tables/figures are written to the working directory when the script
+# runs; they are not committed. Only the raw data and the analysis code are tracked.
 code/*.csv
 code/*.png
 

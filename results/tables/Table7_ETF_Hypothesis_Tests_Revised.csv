@@ -1,4 +1,0 @@
-"Hypothesis","Pre_ETF_Mean","Post_ETF_Mean","Difference","Robust_t","p_value","Test_Type","Result"
-"H1: Long-term TCI no increase",4.0622,3.7747,-0.2875,-2.4166,0.0079,"One-sided (< 0)","SUPPORTED ✓"
-"H2: Short-term TCI ↓ post-ETF",28.0413,23.9601,-4.0812,-7.2119,0,"One-sided (< 0)","SUPPORTED ✓"
-"Total TCI change",32.1035,27.7348,-4.3688,-6.5394,0,"Two-sided","Significant"

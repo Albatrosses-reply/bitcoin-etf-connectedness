@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20582111-blue.svg)](https://doi.org/10.5281/zenodo.20582111)
 
-This repository contains the data and code required to reproduce all empirical
+This repository contains the **data and code** required to reproduce all empirical
 results, tables, and figures in:
 
 > **Institutionalization Without Integration: Bitcoin After the Spot ETF**
@@ -22,22 +22,20 @@ Bitcoin functions as a safe asset **before and after** the ETF.
 .
 ├── README.md                      This file
 ├── LICENSE.txt                    CC BY 4.0 license (data and code)
-├── CITATION.cff                   Machine-readable citation metadata (GitHub)
+├── CITATION.cff                   Machine-readable citation metadata
 ├── .zenodo.json                   Archival metadata for the Zenodo deposit
-├── .gitignore                     Excludes R/LaTeX/OS artifacts
+├── .gitignore                     Excludes R/OS artifacts and generated output
 ├── data/
 │   ├── market_data.csv            Raw daily market and on-chain data (2020-2025)
 │   └── data_dictionary.md         Variable definitions, units, and sources
-├── code/
-│   └── TVP-VAR_ETF_Analysis.Rmd   Single, self-contained analysis script
-└── results/
-    ├── tables/                    Reference output tables (CSV) reported in the paper
-    └── figures/                   Reference output figures (PNG) reported in the paper
+└── code/
+    └── TVP-VAR_ETF_Analysis.Rmd   Single, self-contained analysis script
 ```
 
-The `results/` folder contains the exact output the script produces, provided so
-that readers can verify the reported numbers without re-running the analysis.
-Re-running the script regenerates these files.
+The repository deliberately ships only the inputs needed to reproduce the study:
+the raw data and the analysis script. Running the script regenerates every table
+and figure reported in the paper; those generated files are not committed (they are
+the paper's own exhibits and are listed in Section 5).
 
 ---
 
@@ -53,7 +51,7 @@ Re-running the script regenerates these files.
   transparency and robustness checks.
 * **Missing values:** equity, gold, and volatility series are blank on days when
   those markets are closed (weekends and holidays); the script aligns the series to
-  common trading days and computes log returns before estimation.
+  common trading days and computes returns before estimation.
 * See `data/data_dictionary.md` for the full variable list, units, and sources.
 
 ### Data sources
@@ -94,7 +92,7 @@ The core packages are:
 The script prints the installed versions of the key packages
 (`ConnectednessApproach`, `rmgarch`, `changepoint`, `ggplot2`) near the end of the
 run. For an exact archival record of your environment, run `sessionInfo()` after
-knitting and save the output alongside the results.
+knitting and save the output with your run.
 
 ---
 
@@ -120,8 +118,7 @@ knitting and save the output alongside the results.
    working directory, that copy is used.
 
 4. The run installs any missing packages, performs the full analysis, and writes the
-   tables (`.csv`) and figures (`.png`) to the working directory. These outputs
-   correspond to the reference files in `results/tables/` and `results/figures/`.
+   tables (`.csv`) and figures (`.png`) to the working directory.
 
 **Notes**
 * A full run estimates the TVP-VAR, the frequency decomposition, the DCC-GARCH
@@ -134,26 +131,22 @@ knitting and save the output alongside the results.
 
 ---
 
-## 5. Mapping of outputs to the paper
+## 5. Outputs produced by the script
 
-The output file names are self-describing and map onto the paper as follows
-(representative items):
+Running the script writes self-describing files to the working directory; the main
+ones map onto the paper as follows:
 
-| Output file | Used for |
-|-------------|----------|
+| Generated file | Appears in the paper as |
+|----------------|-------------------------|
 | `Table1_Descriptive_Statistics.csv` | Descriptive statistics |
 | `Table2_ADF_Results.csv` | Stationarity (ADF) tests |
 | `Table4_TCI_by_Regime.csv`, `Figure3_TCI_Dynamics.png` | Total connectedness dynamics |
 | `Table5_NET_Statistics.csv`, `Figure4_NET_Analysis.png` | NET directional connectedness (H3) |
-| `Table7_ETF_Hypothesis_Tests_Revised.csv`, `Table7c_Placebo_Tests.csv` | ETF effect & placebo tests (H1, H2) |
+| `Table7_ETF_Hypothesis_Tests_Revised.csv`, `Table7c_Placebo_Tests.csv` | ETF effect and placebo tests (H1, H2) |
 | `Table_SafeHaven_*.csv`, `Figure5_Threshold_SafeHaven.png` | Safe-haven / VIX-regime diagnostics (H4) |
 | `Table11_Portfolio_Performance.csv`, `Table13_LedoitWolf_Tests.csv` | Supplementary portfolio evidence |
 | `Table17_Kappa_Sensitivity_Revised.csv`, `Table18_Cutoff_Sensitivity.csv` | Robustness checks |
 | `Figure9_Network.png` | Connectedness network structure |
-
-Where two versions of a table exist (e.g., a base and a `_Revised`/`_FIXED`
-variant), the revised/corrected version corresponds to the numbers reported in the
-final manuscript.
 
 ---
 
@@ -176,46 +169,17 @@ repository:
 > IREF-D-26-02471).
 
 > [Authors] (2026). *Replication package for "Institutionalization Without
-> Integration: Bitcoin After the Spot ETF"* (vX.Y) [Data set]. Zenodo.
+> Integration: Bitcoin After the Spot ETF"* [Data set]. Zenodo.
 > https://doi.org/10.5281/zenodo.20582111
 
 A machine-readable citation is provided in `CITATION.cff`.
 
 ---
 
-## 8. Publishing and archiving (maintainer notes)
+## 8. Updating the archived version (maintainer note)
 
-These one-time steps create the public GitHub repository and the citable Zenodo
-archive referenced by the paper. **Do not run `git init` inside a cloud-synced
-folder (Google Drive / Dropbox / iCloud): a live `.git` directory can be corrupted
-by background sync. Copy this folder to a local, non-synced location first.**
-
-```bash
-# 1. Copy out of the cloud-synced drive to a local path
-cp -R "<this Replication_Package folder>" ~/bitcoin-etf-connectedness
-cd ~/bitcoin-etf-connectedness
-
-# 2. Initialize and commit
-git init
-git add .
-git commit -m "Replication package for IREF-D-26-02471"
-
-# 3. Authenticate (one-time) and create the GitHub repository, then push
-gh auth login
-gh repo create bitcoin-etf-connectedness --public --source=. --remote=origin --push
-```
-
-Then archive on Zenodo to obtain the citable DOI:
-
-1. Sign in at https://zenodo.org with your GitHub account.
-2. Under **Settings → GitHub**, toggle ON the `bitcoin-etf-connectedness` repository.
-3. On GitHub, create a release (e.g., tag `v1.0`): *Releases → Draft a new release*.
-4. Zenodo automatically archives that release and issues a DOI of the form
-   `10.5281/zenodo.20582111`.
-5. Replace the placeholder DOI in (i) this README's badge and citation, (ii)
-   `CITATION.cff`, (iii) `.zenodo.json`, and (iv) the manuscript's *Data and Code
-   Availability* section, then push the update.
-
-> Tip: Zenodo also issues a permanent "concept DOI" that always resolves to the
-> latest version; cite the version-specific DOI in the paper for exact
-> reproducibility.
+The repository is archived on Zenodo, which issues a new DOI for each GitHub
+release. To publish an updated version, draft a new release on GitHub (e.g. tag
+`v1.1`); Zenodo archives it automatically under the same concept DOI. Update the DOI
+in this README, `CITATION.cff`, and `.zenodo.json` if you cite a version-specific
+DOI.

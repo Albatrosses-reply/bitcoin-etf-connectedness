@@ -1,6 +1,6 @@
 {
   "title": "Replication package for \"Institutionalization Without Integration: Bitcoin After the Spot ETF\"",
-  "description": "Data and R code to reproduce all empirical results, tables, and figures in the paper \"Institutionalization Without Integration: Bitcoin After the Spot ETF\" (manuscript IREF-D-26-02471, International Review of Economics and Finance). Includes the daily market dataset (Bitcoin, S&P 500, Gold, VIX, and auxiliary series, 2020-2025), a data dictionary, a self-contained R Markdown analysis script (TVP-VAR frequency connectedness, regime detection, safe-haven and threshold analyses, placebo and bootstrap procedures, and a supplementary portfolio exercise), and the reference output tables and figures.",
+  "description": "Data and R code to reproduce all empirical results, tables, and figures in the paper \"Institutionalization Without Integration: Bitcoin After the Spot ETF\" (manuscript IREF-D-26-02471, International Review of Economics and Finance). Includes the daily market dataset (Bitcoin, S&P 500, Gold, VIX, and auxiliary series, 2020-2025), a data dictionary, a self-contained R Markdown analysis script (TVP-VAR frequency connectedness, regime detection, safe-haven and threshold analyses, placebo and bootstrap procedures, and a supplementary portfolio exercise).",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
