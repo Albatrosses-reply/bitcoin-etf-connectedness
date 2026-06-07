@@ -108,7 +108,7 @@ knitting and save the output alongside the results.
 2. Clone or download this repository:
 
    ```bash
-   git clone https://github.com/<user>/bitcoin-etf-connectedness.git
+   git clone https://github.com/Albatrosses-reply/bitcoin-etf-connectedness.git
    cd bitcoin-etf-connectedness
    ```
 
