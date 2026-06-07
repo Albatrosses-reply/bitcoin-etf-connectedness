@@ -1,0 +1,4 @@
+"Hypothesis","Pre_ETF_Mean","Post_ETF_Mean","Difference_Beta","Robust_t_stat","p_value","Result"
+"H1: Long-term TCI ↑ post-ETF",4.0622,3.7747,-0.2875,-2.4166,0.9921,"Not Supported"
+"H2: Short-term TCI ↓ post-ETF",28.0413,23.9601,-4.0812,-7.2119,0,"SUPPORTED ✓"
+"Total TCI change",32.1035,27.7348,-4.3688,-6.5394,0,"Significant"

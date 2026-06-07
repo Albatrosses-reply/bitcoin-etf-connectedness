@@ -1,0 +1,28 @@
+{
+  "title": "Replication package for \"Institutionalization Without Integration: Bitcoin After the Spot ETF\"",
+  "description": "Data and R code to reproduce all empirical results, tables, and figures in the paper \"Institutionalization Without Integration: Bitcoin After the Spot ETF\" (manuscript IREF-D-26-02471, International Review of Economics and Finance). Includes the daily market dataset (Bitcoin, S&P 500, Gold, VIX, and auxiliary series, 2020-2025), a data dictionary, a self-contained R Markdown analysis script (TVP-VAR frequency connectedness, regime detection, safe-haven and threshold analyses, placebo and bootstrap procedures, and a supplementary portfolio exercise), and the reference output tables and figures.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Bitcoin",
+    "spot Bitcoin ETF",
+    "TVP-VAR",
+    "frequency connectedness",
+    "safe haven",
+    "institutionalization",
+    "cryptocurrency",
+    "financial connectedness",
+    "reproducibility"
+  ],
+  "creators": [
+    {
+      "name": "Lee, Sang-Gun",
+      "affiliation": "Business School, Sogang University, Seoul, South Korea"
+    },
+    {
+      "name": "ADD CO-AUTHORS HERE — complete this list with every manuscript author before publishing the Zenodo release"
+    }
+  ],
+  "notes": "Replace the Zenodo DOI placeholders and complete the creators list with all manuscript authors before releasing. On article acceptance, add the article DOI to related_identifiers as 'isSupplementTo'."
+}

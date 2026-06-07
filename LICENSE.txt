@@ -1,0 +1,37 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 The Authors of
+"Institutionalization Without Integration: Bitcoin After the Spot ETF"
+(Manuscript IREF-D-26-02471, International Review of Economics and Finance)
+
+This dataset and the accompanying analysis code are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit (by citing the paper and this
+    data deposit), provide a link to the license, and indicate if changes were
+    made. You may do so in any reasonable manner, but not in any way that suggests
+    the licensor endorses you or your use.
+  - No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license permits.
+
+The full legal text of the license is available at:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is available at:
+  https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+  [Authors] (2026). Replication package for "Institutionalization Without
+  Integration: Bitcoin After the Spot ETF" (vX.Y) [Data set]. Zenodo.
+  https://doi.org/10.5281/zenodo.XXXXXXX
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+Some underlying raw market feeds are subject to their original providers' terms;
+this repository redistributes only the derived daily observations required to
+reproduce the study.

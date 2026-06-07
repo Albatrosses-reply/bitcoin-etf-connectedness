@@ -1,0 +1,6 @@
+"Regime","N","Mean_NET","SD_NET","Pct_Positive","Binom_p","Role"
+"Pre-COVID",37,-11.729,6.514,2.703,0,"Receiver*"
+"COVID Recovery",333,-1.935,3.902,36.336,0,"Receiver*"
+"Bull Market",197,-6.914,1.129,0,0,"Receiver*"
+"Bear Market",229,-5.286,0.842,0,0,"Receiver*"
+"Post-ETF",351,-4.898,1.798,0,0,"Receiver*"

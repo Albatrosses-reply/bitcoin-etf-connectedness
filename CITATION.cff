@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite both the article and this archived repository."
+title: "Replication package for \"Institutionalization Without Integration: Bitcoin After the Spot ETF\""
+type: dataset
+authors:
+  - family-names: "Lee"
+    given-names: "Sang-Gun"
+    affiliation: "Business School, Sogang University, Seoul, South Korea"
+  # ADD CO-AUTHORS HERE — complete with every manuscript author before release.
+license: CC-BY-4.0
+version: "1.0"
+date-released: "2026-06-07"
+# Replace with the real Zenodo DOI after creating the archived release:
+doi: "10.5281/zenodo.XXXXXXX"
+keywords:
+  - Bitcoin
+  - spot Bitcoin ETF
+  - TVP-VAR
+  - frequency connectedness
+  - safe haven
+  - institutionalization
+preferred-citation:
+  type: article
+  title: "Institutionalization Without Integration: Bitcoin After the Spot ETF"
+  authors:
+    - family-names: "Lee"
+      given-names: "Sang-Gun"
+      affiliation: "Business School, Sogang University, Seoul, South Korea"
+    # ADD CO-AUTHORS HERE.
+  journal: "International Review of Economics and Finance"
+  year: 2026
+  notes: "Manuscript IREF-D-26-02471. Add the article DOI once assigned."

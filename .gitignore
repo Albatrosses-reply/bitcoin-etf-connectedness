@@ -1,0 +1,34 @@
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# --- R Markdown knit artifacts ---
+*.html
+code/*.html
+code/*_cache/
+code/*_files/
+
+# Regenerated outputs accidentally written into code/ when knitting there.
+# The canonical reference outputs live in results/ and ARE tracked.
+code/*.csv
+code/*.png
+
+# --- LaTeX (in case manuscript files are ever added) ---
+*.aux
+*.log
+*.out
+*.spl
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

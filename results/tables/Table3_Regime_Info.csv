@@ -1,0 +1,6 @@
+"Regime","Start","End","Days","Duration_Pct","Key_Event"
+"Pre-COVID",2020-01-03,2020-03-12,69,3.2,NA
+"COVID Recovery",2020-03-12,2021-11-10,608,28.6,"COVID Crash"
+"Bull Market",2021-11-10,2022-11-08,363,17.1,"BTC ATH/Fed Signal"
+"Bear Market",2022-11-08,2024-01-10,428,20.1,"FTX Collapse"
+"Post-ETF",2024-01-10,2025-10-28,657,30.9,"Spot ETF Approval"

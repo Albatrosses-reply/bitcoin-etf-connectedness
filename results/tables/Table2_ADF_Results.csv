@@ -1,0 +1,5 @@
+"Variable","ADF_Stat","P_Value","Lag","Stationary"
+"BTC",-6.1918,0.01,22,"Yes"
+"SPY",-7.8911,0.01,22,"Yes"
+"XAU.USD",-7.1784,0.01,22,"Yes"
+"VIX",-8.7494,0.01,22,"Yes"

@@ -1,0 +1,4 @@
+"Variable","Point_Estimate","Boot_Mean","Boot_SE","CI_Lower","CI_Upper","Significant"
+"Total TCI",-4.3688,0.0033,1.4564,-2.8605,2.8938,"No"
+"Short-term TCI",-4.0812,-0.0061,1.2602,-2.508,2.4962,"No"
+"Long-term TCI",-0.2875,0.0094,0.6842,-1.3306,1.4262,"No"
