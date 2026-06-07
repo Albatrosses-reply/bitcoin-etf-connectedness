@@ -1,7 +1,7 @@
 # Institutionalization Without Integration: Bitcoin After the Spot ETF — Replication Package
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20582110-blue.svg)](https://doi.org/10.5281/zenodo.20582110)
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20582645-blue.svg)](https://doi.org/10.5281/zenodo.20582645)
 
 This repository contains the **data and code** required to reproduce all empirical
 results, tables, and figures in:
@@ -170,7 +170,7 @@ repository:
 
 > Anonymous Author 1 and Anonymous Author 2 (2026). *Replication package for "Institutionalization Without
 > Integration: Bitcoin After the Spot ETF"* [Data set]. Zenodo.
-> https://doi.org/10.5281/zenodo.20582110
+> https://doi.org/10.5281/zenodo.20582645
 
 A machine-readable citation is provided in `CITATION.cff`.
 
