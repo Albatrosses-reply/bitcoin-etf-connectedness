@@ -3,8 +3,8 @@ message: "If you use these data or code, please cite both the article and this a
 title: "Replication package for \"Institutionalization Without Integration: Bitcoin After the Spot ETF\""
 type: dataset
 authors:
-  - name: "Anonymous Author 1"
-  - name: "Anonymous Author 2"
+  - name: "Hojun Kang"
+  - name: "Sang-Gun Lee"
 license: CC-BY-4.0
 version: "1.1"
 date-released: "2026-06-08"
@@ -20,8 +20,22 @@ preferred-citation:
   type: article
   title: "Institutionalization Without Integration: Bitcoin After the Spot ETF"
   authors:
-    - name: "Anonymous Author 1"
-    - name: "Anonymous Author 2"
+    - name: "Hojun Kang"
+    - name: "Sang-Gun Lee"
   journal: "International Review of Economics and Finance"
   year: 2026
   notes: "Manuscript IREF-D-26-02471. Add the article DOI once assigned."
+BiB-Tex:
+@article{kang2026institutionalization,
+  author  = {Kang, Hojun and Lee, Sang-Gun},
+  title   = {Institutionalization without integration: {Bitcoin} after the spot {ETF}},
+  journal = {International Review of Economics \& Finance},
+  volume  = {110},
+  pages   = {105531},
+  year    = {2026},
+  issn    = {1059-0560},
+  doi     = {10.1016/j.iref.2026.105531},
+  url     = {https://doi.org/10.1016/j.iref.2026.105531},
+  keywords = {Bitcoin ETF, TVP-VAR, Frequency connectedness, Market integration, Safe haven, Institutionalization},
+  abstract = {This study examines how the spot Bitcoin ETF era is associated with changes in Bitcoin's connectedness with traditional assets. Using a frequency-dependent TVP-VAR for Bitcoin, the S\&P 500, Gold, and VIX over January 2020--October 2025, we distinguish short-horizon spillovers from longer-horizon linkages. Short-term connectedness declines materially in the post-approval period, but long-term connectedness does not increase in an economically meaningful way. Placebo dates indicate that this pattern was already developing during 2023, so we interpret January 10, 2024 as a salient milestone within a broader institutionalization process rather than as a sharp causal breakpoint. Bitcoin also remains a net receiver of spillovers and fails standard safe-haven tests during stress. Critically, this safe-haven failure is no weaker after the ETF than before it: Bitcoin's connectedness with equities rises rather than falls as volatility increases, just as it did during pre-ETF stress such as the 2020 COVID crash, so institutionalization did not convert Bitcoin into a safe asset. The ETF era appears quieter at short horizons, but Bitcoin's broader network position -- and in particular its standing as a non-safe asset -- remains largely unchanged.}
+}
