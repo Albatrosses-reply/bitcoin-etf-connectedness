@@ -164,13 +164,19 @@ paper and this repository. See `LICENSE.txt`.
 If you use these data or code, please cite both the paper and the archived
 repository:
 
-> Anonymous Author 1 and Anonymous Author 2 (2026). *Institutionalization Without Integration: Bitcoin After the
-> Spot ETF.* International Review of Economics and Finance (manuscript
-> IREF-D-26-02471).
+> @article{kang2026institutionalization,
+> author  = {Kang, Hojun and Lee, Sang-Gun},
+> title   = {Institutionalization without integration: {Bitcoin} after the spot {ETF}},
+> journal = {International Review of Economics \& Finance},
+> volume  = {110},
+> pages   = {105531},
+> year    = {2026},
+> issn    = {1059-0560},
+> doi     = {10.1016/j.iref.2026.105531},
+> url     = {https://doi.org/10.1016/j.iref.2026.105531}}
+> 
+> Kang, H., & Lee, S.-G. (2026). Institutionalization without integration: Bitcoin after the spot ETF. International Review of Economics & Finance, 110, Article 105531. https://doi.org/10.1016/j.iref.2026.105531
 
-> Anonymous Author 1 and Anonymous Author 2 (2026). *Replication package for "Institutionalization Without
-> Integration: Bitcoin After the Spot ETF"* [Data set]. Zenodo.
-> https://doi.org/10.5281/zenodo.20582645
 
 A machine-readable citation is provided in `CITATION.cff`.
 
